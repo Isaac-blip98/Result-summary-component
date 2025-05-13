@@ -38,7 +38,7 @@ body {
   color: #cbc9fd;
 }
 .left h2 {
-  font-size: 30px;
+  font-size: 30px; 
 }
 
 .result {
@@ -51,6 +51,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   border-radius: 50%;
   width: 180px;
   height: 180px;
@@ -106,6 +107,10 @@ body {
   display: flex;
   flex-direction: row;
   gap: 5px;
+}
+.percentage span{
+  font-size: 12px;
+  font-weight: 700;
 }
 .limit {
   color: #afacb1;
